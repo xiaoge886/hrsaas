@@ -5,6 +5,8 @@
     <div class="main-container">
       <div :class="{'fixed-header':fixedHeader}">
         <navbar />
+        <!-- 放置多页签显示 -->
+        <TagsView />
       </div>
       <app-main />
     </div>
